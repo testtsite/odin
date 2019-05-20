@@ -1,0 +1,5 @@
+[INFORMATION]
+Projects=AntMan_SK;Lynx_SK;Lyra_SK;Ironman_SK;Captain_SK;Hulk_SK;SpiderMan_SK;
+OSs=Windows 10 All X64;
+WHQL=Y,
+ProviderFullName=Synaptics
