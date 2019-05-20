@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^$ /n-r [L]
+ErrorDocument 404 /n-r/
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php53 .php .php5 .phtml
+</IfModule>
